@@ -1,0 +1,22 @@
+.greeting-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.greeting-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F70C36;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.greeting-button-wrapper:hover {
+    background-color: #F70C36;
+    color: white;
+}
